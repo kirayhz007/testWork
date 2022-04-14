@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T04:21:07.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.2" etag="yuJlg0VOOfOsAv5e7Tj5" type="github"><diagram id="zPTfs_BoiT9AHp729Gyb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-14T04:08:39.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="VVAYKQCJdfPcQLbRoaoK" version="17.1.2" type="github">
+  <diagram id="zPTfs_BoiT9AHp729Gyb" name="Page-1">
+    <mxGraphModel dx="946" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iCjXAOft3jYZU6McRlIs-1" value="浏览器" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-5" value="postman" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-6" value="集成脚本" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="173" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="iCjXAOft3jYZU6McRlIs-1" target="iCjXAOft3jYZU6McRlIs-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-11" value="bash curl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCjXAOft3jYZU6McRlIs-9">
+          <mxGeometry x="-0.0603" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-10" value="bash curl" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iCjXAOft3jYZU6McRlIs-1" target="iCjXAOft3jYZU6McRlIs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-13" value="通过集成脚本转换转为curl命令，&lt;br&gt;再通过postman导入工具将curl导入成模型" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iCjXAOft3jYZU6McRlIs-6">
+          <mxGeometry x="0.0925" y="81" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="190" as="sourcePoint" />
+            <mxPoint x="460" y="120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iCjXAOft3jYZU6McRlIs-5" target="iCjXAOft3jYZU6McRlIs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="200" as="sourcePoint" />
+            <mxPoint x="540" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCjXAOft3jYZU6McRlIs-15" value="postman 将模型导出成curl命令，&lt;br&gt;再通过集成代码转换转为集成脚本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCjXAOft3jYZU6McRlIs-14">
+          <mxGeometry x="-0.0991" y="2" relative="1" as="geometry">
+            <mxPoint x="99" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
