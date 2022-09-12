@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-12T16:13:10.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0Qi24npVrp464LvbZu8c" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-12T16:22:20.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qUtQVLhK2MYP5vJnqGwb" version="20.2.7" type="github">
   <diagram id="cB2_Wi9ztHBC_7jvgDyW" name="第 1 页">
     <mxGraphModel dx="1018" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="rzXQg3vO84eEyRsMpJyL-12" value="HttpItem" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="590" y="320" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rzXQg3vO84eEyRsMpJyL-16" value="&lt;ol&gt;&lt;li&gt;数据 ，模型分离； 测试时，传入示例数据。调用时，传入实际数据。调用脚本，测试时可以是实际值，但调用时，很多值无法确定，需要使用变量。&lt;/li&gt;&lt;li&gt;参数值，可以用连接有的变量，也可以使用上下文传过来的map数据中取。也就是如果为空的，那就相当于是等运行期传入变量数据，如果是不为空的，那就直接使用，但如果是$开头的，也是运行期变量。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;align=left;" vertex="1" parent="1">
+        <mxCell id="rzXQg3vO84eEyRsMpJyL-16" value="&lt;ol&gt;&lt;li&gt;数据 ，模型分离； 测试时，传入示例数据。调用时，传入实际数据。调用脚本，测试时可以是实际值，但调用时，很多值无法确定，需要使用变量。&lt;/li&gt;&lt;li&gt;参数值，可以用连接有的变量，也可以使用上下文传过来的map数据中取。也就是如果为空的，那就相当于是等运行期传入变量数据，如果是不为空的，那就直接使用，但如果是$开头的，也是运行期变量。&lt;/li&gt;&lt;li&gt;有变量的，那就生成的脚本使用变量。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="450" width="620" height="200" as="geometry" />
         </mxCell>
       </root>
